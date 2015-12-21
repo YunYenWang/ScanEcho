@@ -69,8 +69,6 @@ public class HttpPostTask extends AsyncTask<String, Long, String> {
                 InputStreamReader isr = new InputStreamReader(is);
                 String message = toString(isr);
 
-                Log.i(TAG, "@@@@@@@@@@@@@@@@@@ " + message);
-
                 return message;
 
             } finally {
